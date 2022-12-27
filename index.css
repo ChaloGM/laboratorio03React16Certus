@@ -1,0 +1,98 @@
+
+.imagenpostre{
+    display:block;
+    margin:auto;
+    width: 300px;
+    height: 200px;
+    border-image-width: 10px;
+    border-color: aqua;
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    color: burlywood;
+}
+
+.subtitle{
+    text-align: center;
+    color: brown;
+}
+
+.description{
+    text-align: justify;
+    color: gray;
+    padding-left: 800px;
+    padding-right: 800px;
+}
+
+.price{
+    text-align: center;
+    color: brown;
+
+}
+
+.button-33 {
+    margin-left: 38%;
+  background-color: brown;
+  border-radius: 100px;
+  box-shadow: burlywood 0 -25px 18px -14px inset,burlywood 0 1px 2px,burlywood 0 2px 4px,burlywood 0 4px 8px,burlywood 0 8px 16px,burlywood 0 16px 32px;
+  color: beige;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 200px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: burlywood 0 -25px 18px -14px inset,burlywood 0 1px 2px,burlywood 0 2px 4px,burlywood 0 4px 8px,burlywood 0 8px 16px,burlywood 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.button-52 {
+    margin-left: 35%;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 13px 200px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ff0000;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 200px 13px;
+  }
+}
